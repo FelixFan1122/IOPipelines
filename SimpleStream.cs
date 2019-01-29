@@ -4,7 +4,7 @@ using System.Text;
 
 namespace IOPipelines
 {
-    public class SimplePipe
+    public class SimpleStream
     {
         private const int BufferSize = 256;
 
