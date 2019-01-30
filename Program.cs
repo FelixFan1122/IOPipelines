@@ -6,7 +6,8 @@ namespace IOPipelines
     {
         static void Main(string[] args)
         {
-            new SimpleStream().WriteToReadFromSinglePipe();
+            // new SimpleStream().WriteToReadFromSinglePipe();
+            new SimplePipe().WriteToReadFromSinglePipeAsync();
             Console.ReadKey();
         }
     }
